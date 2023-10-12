@@ -14,10 +14,19 @@ If x is even and greater than 20, return 'Blue'
 
 
 class TestIntegerColour(unittest.TestCase):
+    # If x is odd, return 'Red'
     def test_works_for_odd(self):
         expected = 'Red'
 
         actual = integer_colour(5)
+
+        self.assertEqual(expected, actual)
+
+    # If x is even and in the inclusive range of 2 to 5, return 'Blue'
+    def test_works_for_even_between_2_and_5(self):
+        expected = 'Blue'
+
+        actual = integer_colour(2)
 
         self.assertEqual(expected, actual)
 
