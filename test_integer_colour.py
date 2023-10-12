@@ -1,5 +1,7 @@
 import unittest
 
+from integer_colour import integer_colour
+
 """
 Task
 Given an integer x perform the following conditional actions:
