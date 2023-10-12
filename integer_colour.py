@@ -1,2 +1,4 @@
 def integer_colour(number):
-    return 'Red'
+    if number % 2 == 1:
+        return 'Red'
+    return 'Blue'
