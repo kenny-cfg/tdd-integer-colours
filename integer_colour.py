@@ -4,4 +4,6 @@ def integer_colour(number):
     # number is even
     if 5 > number >= 2:
         return 'Blue'
+    if number > 20:
+        return 'Blue'
     return 'Red'

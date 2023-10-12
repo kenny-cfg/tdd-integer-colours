@@ -38,6 +38,13 @@ class TestIntegerColour(unittest.TestCase):
 
         self.assertEqual(expected, actual)
 
+    # If x is even and greater than 20, return 'Blue'
+    def test_works_for_even_greater_than_20(self):
+        expected = 'Blue'
+
+        actual = integer_colour(599934)
+
+        self.assertEqual(expected, actual)
 
 if __name__ == '__main__':
     unittest.main()
